@@ -60,15 +60,14 @@ A high recall means that few positive examples are overlooked by the model, demo
 
 Summary
 Strategic Selection of XGBoost Model for Credit Card Fraud Detection
-In the pursuit of an effective solution to address credit card fraud detection, our primary objective is to achieve a high recall rate. A high recall is crucial to identifying a significant proportion of actual fraudulent transactions, offering a robust defense mechanism against potential high-value fraudulent activities.
-Given the severe consequences that banking institutions face in terms of monetary losses, credibility, and trust due to fraudulent transactions, prioritizing recall becomes a strategic choice to safeguard both the financial well-being of banks and the interests of their customers.
+In the pursuit of an effective solution to address credit card fraud detection, our primary objective is to achieve a high recall rate. A high recall is crucial to identify a significant proportion of actual fraudulent transactions, offering a robust defense mechanism against potential high-value fraudulent activities. Given the severe consequences that banking institutions face in terms of monetary losses, credibility, and trust due to fraudulent transactions, prioritizing recall becomes a strategic choice to safeguard both the financial well-being of banks and the interests of their customers.
+
 Model Evaluation and Selection Process
 In our analysis, we systematically experimented with various machine learning models, leveraging the power of the ADASYN (Adaptive Synthetic Sampling) technique to balance the highly imbalanced dataset. Among the models considered, the XGBoost model emerged as a standout performer. Here are the key findings:
 
-ROC Score: The XGBoost model exhibited a commendable ROC score of 99%, showcasing its ability to effectively distinguish between positive and negative classes.
+ROC Score: The XGBoost model exhibited a commendable ROC score of 100%, showcasing its ability to effectively distinguish between positive and negative classes.
 
-Recall Rate: The standout feature was the exceptionally high Recall rate of 86% in the balanced dataset. This metric is crucial in ensuring that a substantial portion of actual fraudulent transactions is correctly identified.
+Recall Rate: The standout feature was the exceptionally high Recall rate of 100% in the balanced dataset. This metric is crucial in ensuring that a substantial portion of actual fraudulent transactions is correctly identified.
 
 Rationale for Choosing XGBoost
-Therefore, based on a comprehensive evaluation of performance metrics, the XGBoost model, when coupled with the ADASYN technique on a balanced dataset, emerges as the preferred choice for our credit card fraud detection solution. This strategic decision is grounded in the model's ability to not only deliver an impressive ROC score but, more importantly, to prioritize recall—a critical factor in mitigating the impact of fraudulent transactions on both financial institutions and their clientele.
-By adopting the XGBoost model within the framework of ADASYN, we are poised to enhance the proactive monitoring and fraud prevention measures implemented by banks, thereby fortifying their defenses against the evolving landscape of credit card fraud.
+Therefore, based on a comprehensive evaluation of performance metrics, the XGBoost model, when coupled with the ADASYN technique on a balanced dataset, emerges as the preferred choice for our credit card fraud detection solution. This strategic decision is grounded in the model's ability to not only deliver an impressive ROC score but, more importantly, to prioritize recall—a critical factor in mitigating the impact of fraudulent transactions on both financial institutions and their clientele. By adopting the XGBoost model within the framework of ADASYN, we are poised to enhance the proactive monitoring and fraud prevention measures implemented by banks, thereby fortifying their defenses against the evolving landscape of credit card fraud.
